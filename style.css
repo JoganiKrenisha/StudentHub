@@ -1,0 +1,660 @@
+body{
+    margin:0;
+    font-family:Arial;
+    background:#f2f6ff;
+}
+
+header{
+    background:white;
+    height:90px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:0 40px;
+}
+
+.logo{
+    color:#1747ad;
+    display:flex;
+    align-items:center;
+}
+
+.logo img{
+    margin-right:10px;
+}
+
+.nav a{
+    text-decoration:none;
+    color:black;
+    margin:20px;
+    font-size:18px;
+}
+
+.nav .active{
+    color:#1747ad;
+    font-weight:bold;
+}
+
+.logout-btn{
+    text-decoration:none;
+    color:red;
+    border:1px solid red;
+    padding:10px 20px;
+    border-radius:8px;
+}
+
+.title{
+    text-align:center;
+    color:#1747ad;
+    margin-top:30px;
+}
+
+/* Student Status */
+.student-card-container{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    margin-top:40px;
+}
+
+/* Academic Information */
+.academic-card-container{
+    display:grid;
+    grid-template-columns:repeat(3,220px);
+    gap:30px;
+    justify-content:center;
+    margin-top:40px;
+    column-gap:100px;   /* Horizontal space */
+    row-gap:78px; 
+}
+
+.card{
+    width:220px;
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 8px lightgray;
+    text-align:center;
+}
+
+.card h3{
+    margin-top:25px;
+    margin-bottom:35px;
+}
+
+.open-btn{
+    background:#1747ad;
+    color:white;
+    text-decoration:none;
+    padding:10px 25px;
+    border-radius:5px;
+}
+
+.back-box{
+    text-align:center;
+    margin:30px;
+}
+
+.back-btn{
+    background:gray;
+    color:white;
+    text-decoration:none;
+    padding:10px 25px;
+    border-radius:5px;
+}
+
+.card:hover{
+    transform:scale(1.05);
+    transition:0.3s;
+}
+
+.table-box{
+    width:1000px;
+    margin:auto;
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 8px lightgray;
+}
+
+.college-name{
+    text-align:center;
+    color:#1747ad;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+table th{
+    background:#1747ad;
+    color:white;
+    padding:10px;
+    border:1px solid gray;
+}
+
+table td{
+    padding:10px;
+    border:1px solid gray;
+    text-align:center;
+}
+
+.green{
+    color:green;
+    font-weight:bold;
+}
+
+.orange{
+    color:orange;
+    font-weight:bold;
+}
+
+.footer{
+    text-align:center;
+    color:gray;
+}
+.overall{
+    text-align:center;
+    color:#1747ad;
+}
+
+.table-box p{
+    font-size:18px;
+    margin:8px 0;
+}
+/* Contact Us Page */
+
+.contact-title{
+    text-align:center;
+    margin-top:30px;
+}
+
+.contact-title h1{
+    color:#1747ad;
+}
+
+.contact-title p{
+    color:gray;
+    font-size:17px;
+}
+
+.contact-box{
+    width:600px;
+    margin:30px auto;
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 0 8px lightgray;
+}
+
+.contact-box h3{
+    color:#1747ad;
+}
+
+.contact-box p{
+    font-size:17px;
+    line-height:1.6;
+}
+
+.contact-box input,
+.contact-box textarea{
+    width:100%;
+    padding:10px;
+    margin-top:7px;
+    margin-bottom:15px;
+    border:1px solid gray;
+    border-radius:5px;
+}
+
+.send-btn{
+    background:#1747ad;
+    color:white;
+    border:none;
+    padding:10px 25px;
+    border-radius:5px;
+    font-size:16px;
+    cursor:pointer;
+}
+
+.send-btn:hover{
+    background:#10357f;
+}
+/* Home Page */
+
+.login-btn{
+    background:#1747ad;
+    color:white;
+    text-decoration:none;
+    padding:12px 25px;
+    border-radius:5px;
+}
+
+.login-btn:hover{
+    background:#10357f;
+}
+
+.home-main{
+    text-align:center;
+    padding:60px;
+}
+
+.portal-name{
+    color:#1747ad;
+}
+
+.home-main hr{
+    width:200px;
+}
+
+.description{
+    font-size:20px;
+    max-width:800px;
+    margin:30px auto;
+    line-height:1.6;
+}
+
+.community{
+    color:#1747ad;
+}
+
+.register-btn{
+    display:inline-block;
+    background:#1747ad;
+    color:white;
+    text-decoration:none;
+    padding:15px 30px;
+    border-radius:5px;
+    margin-top:20px;
+}
+
+.register-btn:hover{
+    background:#10357f;
+}
+.card{
+    width:250px;
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 8px lightgray;
+    text-align:center;
+}
+.card-container{
+    display:flex;
+    justify-content:center;   /* Centers all cards horizontally */
+    align-items:flex-start;
+    gap:35px;
+    flex-wrap:wrap;
+    margin:40px auto;
+    width:100%;
+}
+/* Login Page */
+
+.home-main input[type="email"],
+.home-main input[type="password"]{
+    width:250px;
+    padding:10px;
+    border:1px solid gray;
+    border-radius:5px;
+}
+
+
+.home-main a{
+    color:#1747ad;
+    text-decoration:none;
+}
+
+
+.home-main a:hover{
+    text-decoration:underline;
+}
+/* Logout Page */
+
+.logout-box{
+    background:white;
+    width:550px;
+    margin:80px auto;
+    padding:50px;
+    border-radius:12px;
+    text-align:center;
+    box-shadow:0 0 10px lightgray;
+}
+
+.logout-box .icon{
+    font-size:70px;
+}
+
+.logout-box h1{
+    color:#1747ad;
+    margin-top:15px;
+}
+
+.logout-box p{
+    font-size:22px;
+    margin:20px 0;
+}
+
+.button-group{
+    margin-top:40px;
+}
+
+.yes-btn{
+    background:red;
+    color:white;
+    text-decoration:none;
+    padding:10px 25px;
+    border-radius:5px;
+    margin-left:20px;
+}
+
+.yes-btn:hover{
+    background:darkred;
+}
+/* Logout Success Page */
+
+.success-box{
+    background:white;
+    width:650px;
+    margin:auto;
+    padding:60px;
+    text-align:center;
+    border-radius:10px;
+    box-shadow:0 0 10px lightgray;
+}
+
+.tick-icon{
+    font-size:90px;
+    color:green;
+    margin:0;
+}
+
+.success-message{
+    font-size:24px;
+    color:#444;
+}
+
+.login-page-btn{
+    display:inline-block;
+    background:#1747ad;
+    color:white;
+    text-decoration:none;
+    padding:15px 45px;
+    border-radius:6px;
+    font-size:20px;
+}
+
+.login-page-btn:hover{
+    background:#10357f;
+}
+
+.home-link{
+    text-decoration:none;
+    color:#1747ad;
+    font-size:20px;
+}
+
+.home-link:hover{
+    text-decoration:underline;
+}
+/* Logout Success Page */
+
+.success-box{
+    background:white;
+    width:650px;
+    margin:auto;
+    padding:60px;
+    text-align:center;
+    border-radius:10px;
+    box-shadow:0 0 10px lightgray;
+}
+
+.tick-icon{
+    font-size:90px;
+    color:green;
+    margin:0;
+}
+
+.success-message{
+    font-size:24px;
+    color:#444;
+}
+
+.login-page-btn{
+    display:inline-block;
+    background:#1747ad;
+    color:white;
+    text-decoration:none;
+    padding:15px 45px;
+    border-radius:6px;
+    font-size:20px;
+}
+
+.login-page-btn:hover{
+    background:#10357f;
+}
+
+.home-link{
+    text-decoration:none;
+    color:#1747ad;
+    font-size:20px;
+}
+
+.home-link:hover{
+    text-decoration:underline;
+}
+/* Student Profile Page */
+
+.profile-title{
+    text-align:center;
+    color:#1747ad;
+    margin-top:30px;
+}
+
+.profile-text{
+    text-align:center;
+}
+
+.profile-box{
+    background:white;
+    width:600px;
+    margin:auto;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 0 8px lightgray;
+}
+
+/* Apply only to text fields */
+.profile-box input[type="text"],
+.profile-box input[type="email"],
+.profile-box textarea{
+    width:550px;
+    padding:10px;
+    border:1px solid gray;
+    border-radius:5px;
+    font-size:16px;
+}
+
+.profile-box textarea{
+    height:80px;
+    resize:none;
+}
+
+/* Buttons */
+.profile-buttons{
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    margin-top:20px;
+}
+
+.back-btn{
+    background:gray;
+    color:white;
+    text-decoration:none;
+    padding:10px 25px;
+    border-radius:5px;
+    width:150px;
+    text-align:center;
+}
+
+.save-btn{
+    background:#1747ad;
+    color:white;
+    border:none;
+    padding:10px 25px;
+    border-radius:5px;
+    width:150px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+.save-btn:hover{
+    background:#10357f;
+}
+/* Registration Page */
+
+.register-header{
+    height:100px;
+    background:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.register-main{
+    text-align:center;
+    padding:40px;
+}
+
+.register-title{
+    color:#1747ad;
+}
+
+.register-input{
+    width:270px;
+    padding:10px;
+    border:1px solid gray;
+    border-radius:5px;
+    font-size:16px;
+}
+
+.register-btn2{
+    background:#1747ad;
+    color:white;
+    padding:10px 25px;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+.register-btn2:hover{
+    background:#10357f;
+}
+
+.login-link{
+    color:#1747ad;
+    text-decoration:none;
+}
+
+.login-link:hover{
+    text-decoration:underline;
+}
+/* Semester Result Page */
+
+.result-title{
+    text-align:center;
+    color:#1747ad;
+}
+
+.college-title{
+    text-align:center;
+    color:#1747ad;
+}
+
+.student-info{
+    width:100%;
+    border-collapse:collapse;
+}
+
+.student-info td{
+    padding:10px;
+}
+
+.result-box{
+    background:white;
+    width:900px;
+    margin:auto;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 8px lightgray;
+}
+
+.sgpa{
+    text-align:center;
+    color:#1747ad;
+}
+
+.result-pass{
+    text-align:center;
+    color:green;
+}
+
+.back-center{
+    text-align:center;
+}
+/* Subjects Page */
+
+.subjects-title{
+    text-align:center;
+    color:#1747ad;
+}
+
+.subjects-box{
+    background:white;
+    width:1000px;
+    margin:auto;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 8px lightgray;
+}
+
+.back-center{
+    text-align:center;
+}
+/* Timetable Page */
+
+.timetable-title{
+    text-align:center;
+    color:#1747ad;
+}
+
+.timetable-box{
+    background:white;
+    width:1200px;
+    margin:auto;
+    padding:20px;
+    border-radius:10px;
+    overflow:auto;
+    box-shadow:0 0 8px lightgray;
+}
+
+.timetable-box table td{
+    text-align:center;
+    vertical-align:middle;
+}
+
+.back-center{
+    text-align:center;
+}
+/* Student Status Page */
+
+.card h3{
+    height:55px;        /* Same heading height */
+    margin:10px 0;
+}
+
+.card p{
+    height:50px;        /* Same paragraph height */
+    margin:10px 0 20px;
+}

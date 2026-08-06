@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Profile</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+
+        <div class="logo">
+            <img src="aca.png" width="50" height="50" alt="Logo">
+            <h2>STUDENTHUB</h2>
+        </div>
+
+        <div class="nav">
+            <a href="dashboard.html">Dashboard</a>
+            <a href="studentstatus.html" class="active">Student Status</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+
+        <a href="logout.html" class="logout-btn">
+            Logout
+        </a>
+
+    </header>
+
+    <!-- Heading -->
+    <h1 class="profile-title">Student Profile</h1>
+
+    <p class="profile-text">
+        Enter your personal details below.
+    </p>
+
+    <!-- Form -->
+    <form action="dashboard.html">
+
+        <div class="profile-box">
+
+            <label><b>Full Name</b></label><br><br>
+            <input type="text" placeholder="Enter Full Name"><br><br>
+
+            <label><b>Student ID</b></label><br><br>
+            <input type="text" placeholder="Enter Enrollment Number"><br><br>
+
+            <label><b>Department</b></label><br><br>
+            <input type="text" placeholder="Enter Department"><br><br>
+
+            <label><b>Semester</b></label><br><br>
+            <input type="text" placeholder="Enter Semester"><br><br>
+
+            <label><b>Email</b></label><br><br>
+            <input type="email" placeholder="Enter Email"><br><br>
+
+            <label><b>Phone Number</b></label><br><br>
+            <input type="text" placeholder="Enter Phone Number"><br><br>
+
+            <label><b>Address</b></label><br><br>
+            <textarea placeholder="Enter Address"></textarea>
+
+            <br><br>
+
+            <div class="profile-buttons">
+
+                <a href="studentstatus.html" class="back-btn">
+                    Back
+                </a>
+
+                <input type="submit" value="Save Profile" class="save-btn">
+
+            </div>
+
+        </div>
+
+    </form>
+
+    <br><br>
+
+    <div class="footer">
+        <p>© 2026 StudentHub. All Rights Reserved.</p>
+    </div>
+
+</body>
+
+</html>
