@@ -1,0 +1,2271 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #dceff4;
+    color: black;
+    transition: 0.3s;
+}
+
+/* Dark Mode Background */
+body.dark-mode {
+    background:  #0e152b;;
+    color:  #F3F4F6;
+}
+
+/* Header */
+.dark-mode header {
+    background: #0f0c26;
+    border-bottom: 1px solid #04070d;
+}
+
+/* Cards */
+.dark-mode .card {
+    background: #171832;;
+    border: 1px solid #2B2035;
+    box-shadow: 0 5px 20px rgba(150, 70, 200, 0.15);
+}
+
+/* Main purple accent */
+.dark-mode .accent {
+    color: #D58AFF;
+}
+
+/* Buttons */
+.dark-mode button,
+.dark-mode .open-btn {
+    background: #8E44AD;
+    color: white;
+}
+
+/* Button hover */
+.dark-mode button:hover,
+.dark-mode .open-btn:hover {
+    background: #A855F7;
+}
+
+/* Links */
+.dark-mode a {
+    color: #D58AFF;
+}
+
+/* Purple glow */
+.dark-mode .glow {
+    box-shadow: 0 0 20px rgba(180, 80, 255, 0.35);
+}
+
+/* Login box in dark mode */
+.dark-mode .login-box {
+    background: #171832;
+    color: #F3F4F6;
+    box-shadow: 0 2px 10px rgba(80, 120, 200, 0.25);
+}
+
+/* Labels */
+.dark-mode .login-box label {
+    color: #F3F4F6;
+}
+
+/* Input fields */
+.dark-mode .login-box input[type="email"],
+.dark-mode .login-box input[type="password"] {
+    background: #ffffff;
+    color: #222;
+    border: 1px solid #777;
+}
+
+/* Login button */
+.dark-mode .login-box .open-btn {
+    background: #8E44AD;
+    color: white;
+    box-shadow: none;
+}
+
+/* Register text */
+.dark-mode .login-box p {
+    color: #F3F4F6;
+}
+
+/* =========================
+   STUDENT STATUS DARK MODE
+   ========================= */
+
+.dark-mode .student-card-container,
+.dark-mode .academic-card-container {
+    background: #171832;
+    color: #F3F4F6;
+    border: 1px solid #2B2035;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
+}
+
+/* Card headings */
+.dark-mode .student-card-container h3,
+.dark-mode .academic-card-container h3 {
+    color: #F3F4F6;
+}
+
+/* Card paragraph */
+.dark-mode .student-card-container p,
+.dark-mode .academic-card-container p {
+    color: #D1D5DB;
+}
+
+/* Buttons */
+.dark-mode .student-card-container .open-btn,
+.dark-mode .academic-card-container .open-btn {
+    background: #8E44AD;
+    color: white;
+    box-shadow: none;
+}
+
+/* Button hover */
+.dark-mode .student-card-container .open-btn:hover,
+.dark-mode .academic-card-container .open-btn:hover {
+    background: #A855F7;
+} 
+
+/* =========================
+   CONTACT PAGE DARK MODE
+   ========================= */
+
+/* Contact box */
+.dark-mode .contact-box {
+    background: #171832;
+    color: #F3F4F6;
+    border: 1px solid #2B2035;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
+}
+
+/* Contact headings */
+.dark-mode .contact-box h3 {
+    color: #4F7FFF;
+}
+
+/* College information text */
+.dark-mode .contact-box p {
+    color: #D1D5DB;
+}
+
+/* Bold text */
+.dark-mode .contact-box b {
+    color: #F3F4F6;
+}
+
+/* Horizontal line */
+.dark-mode .contact-box hr {
+    border: 0;
+    border-top: 1px solid #555;
+}
+
+/* Form labels */
+.dark-mode .contact-box label {
+    color: #F3F4F6;
+}
+
+/* Input fields */
+.dark-mode .contact-box input,
+.dark-mode .contact-box textarea {
+    background: #ffffff;
+    color: #222222;
+    border: 1px solid #777;
+}
+
+/* Placeholder text */
+.dark-mode .contact-box input::placeholder,
+.dark-mode .contact-box textarea::placeholder {
+    color: #666666;
+}
+
+/* Send button */
+.dark-mode .contact-box .send-btn {
+    background: #8E44AD;
+    color: white;
+    box-shadow: none;
+}
+
+/* Send button hover */
+.dark-mode .contact-box .send-btn:hover {
+    background: #A855F7;
+}
+
+/* Contact page description */
+.dark-mode .contact-title p {
+    color: #9CA3AF;
+}
+
+/* Contact page heading */
+.dark-mode .contact-title h1 {
+    color: #4F7FFF;
+}
+
+/* Footer */
+.dark-mode .footer {
+    background: transparent;
+    color: #9CA3AF;
+}  
+/* =========================
+   LOGOUT PAGE DARK MODE
+   ========================= */
+
+.dark-mode .logout-box {
+    background: #171832;
+    color: #F3F4F6;
+    border: 1px solid #2B2035;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
+}
+
+/* Logout heading */
+.dark-mode .logout-box h1 {
+    color: #4F7FFF;
+}
+
+/* Logout message */
+.dark-mode .logout-box p {
+    color: #D1D5DB;
+}
+
+/* Cancel button */
+.dark-mode .logout-box .back-btn {
+    background: #555555;
+    color: #D58AFF;
+    box-shadow: none;
+}
+
+/* Yes Logout button */
+.dark-mode .logout-box .yes-btn {
+    background: #ff0000;
+    color: white;
+    box-shadow: none;
+}
+
+/* Hover */
+.dark-mode .logout-box .back-btn:hover {
+    background: #666666;
+}
+
+.dark-mode .logout-box .yes-btn:hover {
+    background: #cc0000;
+}
+
+/* Footer */
+.dark-mode .footer {
+    background: transparent;
+    color: #9CA3AF;
+}
+/* =========================
+   ACADEMIC PAGE DARK MODE
+   ========================= */
+
+.dark-mode .academicpage-card {
+    background: #171832;
+    color: #F3F4F6;
+    border: 1px solid #2B2035;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
+}
+
+/* Card headings */
+.dark-mode .academicpage-card h3 {
+    color: #F3F4F6;
+}
+
+/* Open buttons */
+.dark-mode .academicpage-card .open-btn {
+    background: #8E44AD;
+    color: white;
+    box-shadow: none;
+}
+
+/* Open button hover */
+.dark-mode .academicpage-card .open-btn:hover {
+    background: #A855F7;
+}
+
+/* Back button */
+.dark-mode .back-box .back-btn {
+    background: #555555;
+    color: #F3F4F6;
+    box-shadow: none;
+}
+
+/* Back button hover */
+.dark-mode .back-box .back-btn:hover {
+    background: #666666;
+}
+
+.profile-photo {
+    display: block;
+    margin: 0 auto 30px auto;
+    width: 160px;
+    height: 180px;
+    object-fit: cover;
+}
+
+.profile-photo img {
+    width: 130px;
+    height: 150px;
+    object-fit: cover;
+    border: 1px solid #555;
+    display: block;
+    margin: auto;
+}
+
+.profile-photo input {
+    display: none;
+}
+
+/* =========================
+   PROFILE PAGE DARK MODE
+   ========================= */
+
+/* Profile box */
+.dark-mode .profile-box {
+    background: #171832;
+    color: #F3F4F6;
+    border: 1px solid #2B2035;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
+}
+
+/* Profile heading */
+.dark-mode .profile-title {
+    color: #4F7FFF;
+}
+
+/* Profile description */
+.dark-mode .profile-text {
+    color: #9CA3AF;
+}
+
+/* Labels */
+.dark-mode .profile-box label {
+    color: #F3F4F6;
+}
+
+/* Input fields */
+.dark-mode .profile-box input[type="text"],
+.dark-mode .profile-box input[type="email"],
+.dark-mode .profile-box input[type="file"],
+.dark-mode .profile-box textarea {
+    background: #ffffff;
+    color: #222222;
+    border: 1px solid #777777;
+}
+
+/* Placeholder text */
+.dark-mode .profile-box input::placeholder,
+.dark-mode .profile-box textarea::placeholder {
+    color: #666666;
+}
+
+/* Save Profile button */
+.dark-mode .profile-box .save-btn {
+    background: #8E44AD;
+    color: white;
+    box-shadow: none;
+}
+
+/* Save button hover */
+.dark-mode .profile-box .save-btn:hover {
+    background: #A855F7;
+}
+
+/* Back button */
+.dark-mode .profile-box .back-btn {
+    background: #555555;
+    color: #F3F4F6;
+    box-shadow: none;
+}
+
+/* Back button hover */
+.dark-mode .profile-box .back-btn:hover {
+    background: #666666;
+}
+
+/* Profile image */
+.dark-mode .profile-photo img {
+    border-color: #777777;
+}
+
+/* Footer */
+.dark-mode .footer {
+    background: transparent;
+    color: #9CA3AF;
+}
+
+/* =========================
+   ATTENDANCE PAGE DARK MODE
+   ========================= */
+
+/* Attendance main box */
+.dark-mode .table-box {
+    background: #171832;
+    color: #F3F4F6;
+    border: 1px solid #2B2035;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
+}
+
+/* College name */
+.dark-mode .table-box .college-name {
+    color: #4F7FFF;
+}
+
+/* Student information */
+.dark-mode .table-box p {
+    color: #D1D5DB;
+}
+
+/* Bold student information */
+.dark-mode .table-box p b {
+    color: #F3F4F6;
+}
+
+/* Horizontal line */
+.dark-mode .table-box hr {
+    border: 0;
+    border-top: 1px solid #555;
+}
+
+/* Table */
+.dark-mode .table-box table {
+    background: #171832;
+    color: #F3F4F6;
+    border-color: #444;
+}
+
+/* Table headings */
+.dark-mode .table-box th {
+    background: #25254A;
+    color: #FFFFFF;
+    border: 1px solid #555;
+}
+
+/* Table cells */
+.dark-mode .table-box td {
+    background: #171832;
+    color: #D1D5DB;
+    border: 1px solid #444;
+}
+
+/* Excellent / Good status */
+.dark-mode .table-box .green {
+    color: #4ADE80;
+}
+
+/* Overall attendance */
+.dark-mode .table-box .overall {
+    color: #4F7FFF;
+}
+
+/* Back button */
+.dark-mode .table-box .back-btn {
+    background: #555555;
+    color: #F3F4F6;
+    box-shadow: none;
+}
+
+/* Back button hover */
+.dark-mode .table-box .back-btn:hover {
+    background: #666666;
+}
+
+/* Footer */
+.dark-mode .footer {
+    background: transparent;
+    color: #9CA3AF;
+}
+
+/* =========================
+   SUBJECTS PAGE DARK MODE
+   ========================= */
+
+/* Subjects box */
+.dark-mode .subjects-box {
+    background: #171832;
+    color: #F3F4F6;
+    border: 1px solid #2B2035;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
+}
+
+/* Subjects title */
+.dark-mode .subjects-title {
+    color: #4F7FFF;
+}
+
+/* Table */
+.dark-mode .subjects-box table {
+    background: #171832;
+    color: #F3F4F6;
+    border-color: #444;
+}
+
+/* Table headings */
+.dark-mode .subjects-box th {
+    background: #25254A;
+    color: #FFFFFF;
+    border: 1px solid #555;
+}
+
+/* Table cells */
+.dark-mode .subjects-box td {
+    background: #171832;
+    color: #D1D5DB;
+    border: 1px solid #444;
+}
+
+/* Back button */
+.dark-mode .subjects-box .back-btn {
+    background: #555555;
+    color: #F3F4F6;
+    box-shadow: none;
+}
+
+/* Back button hover */
+.dark-mode .subjects-box .back-btn:hover {
+    background: #666666;
+}
+
+/* Footer */
+.dark-mode .footer {
+    background: transparent;
+    color: #9CA3AF;
+}
+
+/* =========================
+   RESULTS PAGE DARK MODE
+   ========================= */
+
+/* Main result box */
+.dark-mode .result-box {
+    background: #171832;
+    color: #F3F4F6;
+    border: 1px solid #2B2035;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
+}
+
+/* CHARUSAT title */
+.dark-mode .result-title {
+    color: #4F7FFF;
+}
+
+/* College title */
+.dark-mode .college-title {
+    color: #D1D5DB;
+}
+
+/* Horizontal line */
+.dark-mode .result-box hr {
+    border: 0;
+    border-top: 1px solid #555;
+}
+
+/* Result table */
+.dark-mode .result-box table {
+    background: #171832;
+    color: #F3F4F6;
+    border-color: #444;
+}
+
+/* Table headings */
+.dark-mode .result-box th {
+    background: #25254A;
+    color: #FFFFFF;
+    border: 1px solid #555;
+}
+
+/* Table cells */
+.dark-mode .result-box td {
+    background: #171832;
+    color: #D1D5DB;
+    border: 1px solid #444;
+}
+
+/* Bold text */
+.dark-mode .result-box td b {
+    color: #F3F4F6;
+}
+
+/* Pass status */
+.dark-mode .result-box .green {
+    color: #4ADE80;
+}
+
+/* SGPA */
+.dark-mode .result-box .sgpa {
+    color: #4F7FFF;
+}
+
+/* Result PASS */
+.dark-mode .result-box .result-pass {
+    color: #4ADE80;
+}
+
+/* Back button */
+.dark-mode .back-center .back-btn {
+    background: #555555;
+    color: #F3F4F6;
+    box-shadow: none;
+}
+
+/* Back button hover */
+.dark-mode .back-center .back-btn:hover {
+    background: #666666;
+}
+
+/* Footer */
+.dark-mode .footer {
+    background: transparent;
+    color: #9CA3AF;
+}
+.back-center {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.back-center .back-btn {
+    display: inline-block;
+}
+
+/* =========================
+   TIMETABLE PAGE DARK MODE
+   ========================= */
+
+/* Timetable box */
+.dark-mode .timetable-box {
+    background: #171832;
+    color: #F3F4F6;
+    border: 1px solid #2B2035;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
+}
+
+/* Timetable title */
+.dark-mode .timetable-title {
+    color: #4F7FFF;
+}
+
+/* Table */
+.dark-mode .timetable-box table {
+    background: #171832;
+    color: #F3F4F6;
+    border-color: #444;
+}
+
+/* Table heading */
+.dark-mode .timetable-box th {
+    background: #25254A;
+    color: #FFFFFF;
+    border: 1px solid #555;
+}
+
+/* Table cells */
+.dark-mode .timetable-box td {
+    background: #171832;
+    color: #D1D5DB;
+    border: 1px solid #444;
+}
+
+/* Day names */
+.dark-mode .timetable-box td b {
+    color: #F3F4F6;
+}
+
+/* Back button */
+.dark-mode .back-center .back-btn {
+    background: #555555;
+    color: #F3F4F6;
+    box-shadow: none;
+}
+
+/* Back button hover */
+.dark-mode .back-center .back-btn:hover {
+    background: #666666;
+}
+
+/* Footer */
+.dark-mode .footer {
+    background: transparent;
+    color: #9CA3AF;
+} 
+/* =========================
+   EXAM PAGE DARK MODE
+   ========================= */
+
+/* Main exam box */
+.dark-mode .table-box {
+    background: #171832;
+    color: #F3F4F6;
+    border: 1px solid #2B2035;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
+}
+
+/* Main page title */
+.dark-mode .title {
+    color: #4F7FFF;
+}
+
+/* College names */
+.dark-mode .table-box .college-name {
+    color: #4F7FFF;
+}
+
+/* Faculty and semester information */
+.dark-mode .table-box h3 {
+    color: #D1D5DB;
+}
+
+/* Paragraph information */
+.dark-mode .table-box p {
+    color: #D1D5DB;
+}
+
+/* Bold text */
+.dark-mode .table-box p b {
+    color: #F3F4F6;
+}
+
+/* Horizontal line */
+.dark-mode .table-box hr {
+    border: 0;
+    border-top: 1px solid #555;
+}
+
+/* Theory and Practical headings */
+.dark-mode .table-box h2[style*="color:red"] {
+    color: #FF6B6B !important;
+}
+
+/* Tables */
+.dark-mode .table-box table {
+    background: #171832;
+    color: #F3F4F6;
+    border-collapse: collapse;
+}
+
+/* Table headings */
+.dark-mode .table-box th {
+    background: #25254A;
+    color: #FFFFFF;
+    border: 1px solid #555;
+}
+
+/* Table cells */
+.dark-mode .table-box td {
+    background: #171832;
+    color: #D1D5DB;
+    border: 1px solid #444;
+}
+
+/* General Instructions heading */
+.dark-mode .table-box h2[style*="#1747ad"] {
+    color: #4F7FFF !important;
+}
+
+/* Instructions list */
+.dark-mode .table-box ol {
+    color: #D1D5DB;
+}
+
+/* Back button */
+.dark-mode .table-box .back-btn {
+    background: #555555;
+    color: #F3F4F6;
+    box-shadow: none;
+}
+
+/* Back button hover */
+.dark-mode .table-box .back-btn:hover {
+    background: #666666;
+}
+
+/* Footer */
+.dark-mode .footer {
+    background: transparent;
+    color: #9CA3AF;
+}
+/* =========================
+   LOGOUT SUCCESS DARK MODE
+   ========================= */
+
+/* Success box */
+.dark-mode .success-box {
+    background: #171832;
+    color: #F3F4F6;
+    border: 1px solid #2B2035;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
+}
+
+/* Tick icon */
+.dark-mode .success-box .tick-icon {
+    color: #4ADE80;
+}
+
+/* Success heading */
+.dark-mode .success-box h1 {
+    color: #F3F4F6;
+}
+
+/* Success message */
+.dark-mode .success-box .success-message {
+    color: #D1D5DB;
+}
+
+/* Login button */
+.dark-mode .success-box .login-page-btn {
+    background: #8E44AD;
+    color: white;
+    box-shadow: none;
+}
+
+/* Login button hover */
+.dark-mode .success-box .login-page-btn:hover {
+    background: #A855F7;
+}
+
+/* Homepage link */
+.dark-mode .success-box .home-link {
+    color: #D58AFF;
+}
+
+/* Homepage link hover */
+.dark-mode .success-box .home-link:hover {
+    color: #A855F7;
+}
+
+/* Footer */
+.dark-mode .footer {
+    background: transparent;
+    color: #9CA3AF;
+}
+.content-box {
+    width: 65%;
+
+    max-width: 1000px;
+
+    margin: 0 auto;
+
+    padding: 38px 55px 32px;
+
+    border: 2px solid #a9caff;
+
+    border-radius: 16px;
+
+    background: rgba(255, 255, 255, 0.25);
+
+    box-shadow:
+        0 10px 35px rgba(70, 120, 200, 0.05);
+
+    backdrop-filter: blur(5px);
+}
+
+/* Paragraph */
+
+.content-box p {
+    font-size: 27px;
+
+    line-height: 1.85;
+
+    color: #111827;
+
+    margin-bottom: 24px;
+}
+
+
+/* Join text */
+
+.content-box h3 {
+    font-size: 27px;
+
+    color: #1642bd;
+
+    margin-bottom: 25px;
+
+    font-weight: 700;
+}
+
+
+header{
+    background:rgb(210, 230, 236);
+    height:90px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:0 40px;
+}
+
+.header{
+     
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    background:white;
+
+    padding:15px 40px;
+
+    box-shadow:0 2px 10px rgba(0,0,0,0.1);
+
+    flex-wrap:wrap;
+  
+    height: 108px;
+    padding: 0 30px;
+
+}
+.logo img{
+
+    width:50px;
+    height:50px;
+
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 12px;   /* Space between logo and text */
+}
+
+.navbar a{
+    text-decoration:none;
+    color:black;
+    margin:20px;
+    font-size:18px;
+}
+
+.nav .active{
+    color:#1747ad;
+    font-weight:bold;
+}
+.hero{
+
+    max-width:800px;
+
+}
+.logout-btn{
+    text-decoration:none;
+    color:red;
+    border:1px solid red;
+    padding:10px 20px;
+    border-radius:8px;
+    padding-top: 5px;
+    transform: translateY(26px);
+   
+  
+}
+/* Card Hover Effect */
+.logout-btn:hover {
+    transform: translateY(24px);
+  
+   
+}
+
+.title{
+    text-align:center;
+    color:#1747ad;
+    margin-top:30px;
+}
+
+/* Student Status */
+.student-card-container,
+.academic-card-container {
+    width: 220px;
+    height: 180px;
+    background: white;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Card Hover Effect */
+.student-card-container:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.18);
+}
+.academic-card-container:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.18);
+}
+.card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+
+    width: 100%;
+    max-width: 1100px;
+
+    margin: 30px auto;
+}
+
+.card {
+    width: 280px;
+    height: 220px;
+    padding: 20px;
+    
+    background: white;
+    border: 1px solid #8ed8ed;
+    border-radius: 12px;
+
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+
+    padding: 25px;
+    box-sizing: border-box;
+
+    text-align: center;
+}
+
+.academicpage-card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 220px);
+    gap: 30px;
+    justify-content: center;
+    margin: 40px auto;
+}
+.academicpage-card {
+    width: 220px;
+    height: 200px;
+    box-sizing: border-box;
+
+    background: white;
+    border-radius: 10px;
+    padding: 30px;
+
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.12);
+}
+.academicpage-card .open-btn {
+    width: 80px;
+    height: 15px;
+
+    background: #1747ad;
+    color: white;
+
+    border: none;
+    border-radius: 6px;
+
+    font-size: 18px;
+    text-decoration: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* Card Hover Effect */
+.academicpage-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.18);
+}
+
+.academic-card-container .open-btn {
+    margin-top: auto;
+    transform: translateY(-15px);
+    background: #1747ad;
+    color: white;
+    border: none;
+    padding: 10px 27px;
+    border-radius: 6px;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+
+
+   
+
+.card h3{
+    margin-top:25px;
+    margin-bottom:35px;
+}
+.card:hover{
+    transform:scale(1.05);
+    transition:0.3s;
+}
+
+.open-btn {
+    margin-top: auto;
+    background: #1747ad;
+    color: white;
+    border: none;
+    padding: 10px 27px;
+    border-radius: 6px;
+    font-size: 17px;
+    text-decoration: none;
+}
+.open-btn:hover{
+
+    background:#10357f;
+
+}
+
+.back-box{
+    text-align:center;
+    margin:30px;
+}
+
+.back-btn{
+    background:gray;
+    color:white;
+    text-decoration:none;
+    padding:10px 25px;
+    border-radius:5px;
+}
+
+.table-box{
+    width:1000px;
+    margin:auto;
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 8px rgb(46, 67, 206);
+}
+
+.college-name{
+    text-align:center;
+    color:#1747ad;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+table th{
+    background:#173f94;
+    color:white;
+    padding:10px;
+    border:1px solid gray;
+}
+
+table td{
+    padding:10px;
+    border:1px solid gray;
+    text-align:center;
+}
+
+.green{
+    color:green;
+    font-weight:bold;
+}
+
+.orange{
+    color:orange;
+    font-weight:bold;
+}
+
+
+.overall{
+    text-align:center;
+    color:#1747ad;
+}
+
+.table-box p{
+    font-size:18px;
+    margin:8px 0;
+}
+/* Contact Us Page */
+
+.contact-title{
+    text-align:center;
+    margin-top:30px;
+}
+
+.contact-title h1{
+    color:#1747ad;
+}
+
+.contact-title p{
+    color:gray;
+    font-size:17px;
+}
+
+.contact-box{
+    width:600px;
+    margin:30px auto;
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 0 8px rgb(49, 81, 187);
+}
+
+.contact-box h3{
+    color:#1747ad;
+}
+
+.contact-box p{
+    font-size:17px;
+    line-height:1.6;
+}
+
+.contact-box input,
+.contact-box textarea{
+    width:100%;
+    padding:10px;
+    margin-top:7px;
+    margin-bottom:15px;
+    border:1px solid gray;
+    border-radius:5px;
+}
+
+.send-btn{
+    background:#1747ad;
+    color:white;
+    border:none;
+    padding:10px 25px;
+    border-radius:5px;
+    font-size:16px;
+    cursor:pointer;
+}
+
+.send-btn:hover{
+    background:#10357f;
+}
+/* Home Page */
+
+.home-main{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+    padding:60px 20px;
+
+}
+
+.portal-name{
+    color: #1747ad;
+}
+
+.home-main hr{
+
+    width:220px;
+
+    margin:20px auto;
+
+}
+
+.description{
+    font-size: 20px;
+    max-width: 800px;
+    margin: 30px auto;
+    line-height: 1.6;
+}
+
+.community{
+    color: #1747ad;
+}
+
+.register-btn{
+
+    display:inline-block;
+
+    margin-top:20px;
+
+    text-decoration:none;
+
+    background:#1747ad;
+
+    color:white;
+
+    padding:15px 35px;
+
+    border-radius:6px;
+
+}
+
+
+.register-btn:hover{
+    transform: translateY(-2px);
+     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.18);
+    background: #10357f;
+}
+
+.footer{
+    text-align: center;
+    color: gray;
+    padding: 20px;
+}
+/* Login Page */
+
+.home-main input[type="email"],
+.home-main input[type="password"]{
+    width:250px;
+    max-width:350px;
+    padding:10px;
+    border:1px solid gray;
+    border-radius:5px;
+}
+
+.home-main a{
+    text-decoration: none;
+}
+
+
+.home-main a:hover{
+    text-decoration:underline;
+}
+/* Logout Page */
+
+.logout-box{
+    background:white;
+    width:550px;
+    margin:80px auto;
+    padding:50px;
+    border-radius:12px;
+    text-align:center;
+    box-shadow:0 0 10px lightgray;
+}
+
+.logout-box .icon{
+    font-size:70px;
+}
+
+.logout-box h1{
+    color:#1747ad;
+    margin-top:15px;
+}
+
+.logout-box p{
+    font-size:22px;
+    margin:20px 0;
+}
+
+.button-group{
+    margin-top:40px;
+}
+
+.yes-btn{
+    background:red;
+    color:white;
+    text-decoration:none;
+    padding:10px 25px;
+    border-radius:5px;
+    margin-left:20px;
+}
+
+.yes-btn:hover{
+    background:darkred;
+}
+/* Logout Success Page */
+
+.success-box{
+    background:white;
+    width:650px;
+    margin:auto;
+    padding:60px;
+    text-align:center;
+    border-radius:10px;
+    box-shadow:0 0 10px lightgray;
+}
+
+.tick-icon{
+    font-size:90px;
+    color:green;
+    margin:0;
+}
+
+.success-message{
+    font-size:24px;
+    color:#444;
+}
+.login-btn {
+    margin-left: auto;
+    margin-right: 40px;
+    background-color: #1f4fb5;
+    color: white;
+    padding: 14px 30px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.login-btn:hover{
+    transform: translateY(-2px);
+     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.18);
+}
+
+.login-page-btn{
+    display:inline-block;
+    
+    background:#1747ad;
+    color:white;
+    text-decoration:none;
+    padding:15px 45px;
+    border-radius:6px;
+    font-size:20px;
+}
+.login-page-btn:hover{
+    transform: translateY(-1px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.18);
+    background:#10357f;
+}
+
+
+.home-link{
+    text-decoration:none;
+    color:#1747ad;
+    font-size:20px;
+}
+
+.home-link:hover{
+    text-decoration:underline;
+}
+/* Logout Success Page */
+
+.success-box{
+    background:white;
+    width:650px;
+    margin:auto;
+    padding:60px;
+    text-align:center;
+    border-radius:10px;
+    box-shadow:0 0 10px rgb(21, 81, 210);
+}
+
+
+/* Student Profile Page */
+
+.profile-title{
+    text-align:center;
+    color:#1747ad;
+    margin-top:30px;
+}
+
+.profile-text{
+    text-align:center;
+}
+
+.profile-box{
+    background:white;
+    width:600px;
+    margin:auto;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 0 8px rgb(45, 68, 201);
+}
+
+/* Apply only to text fields */
+.profile-box input[type="text"],
+.profile-box input[type="email"],
+.profile-box textarea{
+    width:550px;
+    padding:10px;
+    border:1px solid gray;
+    border-radius:5px;
+    font-size:16px;
+}
+
+.profile-box textarea{
+    height:80px;
+    resize:none;
+}
+
+/* Buttons */
+.profile-buttons{
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    margin-top:20px;
+}
+
+.back-btn{
+    background:rgb(102, 100, 100);
+    color:white;
+    text-decoration:none;
+    padding:10px 25px;
+    border-radius:5px;
+    width:150px;
+    text-align:center;
+}
+
+.save-btn{
+    background:#1747ad;
+    color:white;
+    border:none;
+    padding:10px 25px;
+    border-radius:5px;
+    width:150px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+.save-btn:hover{
+    background:#10357f;
+}
+/* Registration Page */
+
+
+.register-main{
+    text-align:center;
+    padding:40px;
+}
+
+.register-title{
+    color:#1747ad;
+}
+
+.register-input{
+    width:270px;
+    padding:10px;
+    border:1px solid gray;
+    border-radius:5px;
+    font-size:16px;
+}
+
+.register-btn2{
+    background:#1747ad;
+    color:white;
+    padding:10px 25px;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+.register-btn2:hover{
+     transform: translateY(-1px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.18);
+    background:#10357f;
+}
+
+.login-link{
+    color:#1747ad;
+    text-decoration:none;
+}
+
+.login-link:hover{
+    text-decoration:underline;
+}
+/* Semester Result Page */
+
+.result-title{
+    text-align:center;
+    color:#1747ad;
+}
+
+.college-title{
+    text-align:center;
+    color:#1747ad;
+}
+
+
+
+.result-box{
+    background:white;
+    width:900px;
+    margin:auto;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 8px rgb(154, 146, 205);
+}
+
+.sgpa{
+    text-align:left;
+
+    color:#1747ad;
+}
+
+.result-pass{
+    text-align:left;
+    color:green;
+}
+
+
+/* Subjects Page */
+
+.subjects-title{
+    text-align:center;
+    color:#1747ad;
+}
+
+.subjects-box{
+    background:white;
+    width:1000px;
+    margin:auto;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 8px rgb(47, 100, 216);
+}
+
+
+/* Timetable Page */
+
+.timetable-title{
+    text-align:center;
+    color:#1747ad;
+}
+
+.timetable-box{
+    background:white;
+    width:1200px;
+    margin:auto;
+    padding:20px;
+    border-radius:10px;
+    overflow:auto;
+    box-shadow:0 0 8px rgb(60, 82, 208);
+}
+
+.timetable-box table td{
+    text-align:center;
+    vertical-align:middle;
+}
+
+
+/* Student Status Page */
+
+.card h3{
+    height:55px;        /* Same heading height */
+    margin:10px 0;
+}
+
+.card p{
+    height:50px;        /* Same paragraph height */
+    margin:10px 0 20px;
+}
+/* ===========================
+   Responsive Header (Flexbox)
+=========================== */
+
+.header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+    padding:15px 30px;
+}
+
+.navbar{
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.navbar a{
+    text-decoration:none;
+    color:black;
+    font-size:18px;
+}
+
+.features{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:25px;
+    margin-top:40px;
+}
+
+.card{
+    width:100%;
+}
+
+/* ===========================
+      TABLET
+=========================== */
+
+@media screen and (max-width:768px){
+
+.header{
+
+    flex-direction:column;
+
+    gap:15px;
+
+    padding:20px;
+
+}
+
+.home-main{
+
+    padding:40px 20px;
+
+}
+
+.portal-name{
+
+    font-size:38px;
+
+}
+
+.description{
+
+    font-size:18px;
+
+}
+
+}
+
+
+/* ===========================
+      MOBILE
+=========================== */
+
+@media screen and (max-width:480px){
+
+.header{
+
+    padding:15px;
+
+}
+
+.logo{
+
+    flex-direction:column;
+
+}
+
+   .logo h2{
+        font-size: 20px;
+    }
+
+
+.home-main{
+
+    padding:30px 15px;
+
+}
+
+.home-main h1{
+
+    font-size:28px;
+
+}
+
+.portal-name{
+
+    font-size:30px;
+
+}
+
+.description{
+
+    font-size:16px;
+
+}
+
+.open-btn,
+
+.register-btn{
+
+    width:200px;
+
+    text-align:center;
+
+}
+
+.logo img{
+
+    width:40px;
+
+    height:40px;
+
+}
+
+}
+/* login- page*/
+
+.login-box{
+
+    background:white;
+
+    width:90%;
+    max-width:400px;
+
+    margin:auto;
+
+    padding:30px;
+
+    border-radius:10px;
+
+    box-shadow:0 0 10px rgb(39, 85, 170);
+
+}
+
+.login-box form{
+
+    display:flex;
+
+    flex-direction:column;
+
+}
+
+.login-box label{
+
+    margin-top:15px;
+    margin-bottom:5px;
+
+}
+
+.login-box input[type="email"],
+.login-box input[type="password"]{
+
+    width:100%;
+
+    padding:10px;
+
+    border:1px solid gray;
+
+    border-radius:5px;
+
+}
+
+.login-box .open-btn{
+
+    margin-top:20px;
+
+}
+nav {
+    display: flex;
+    gap: 10px;
+}
+
+.nav-btn {
+    text-decoration: none;
+    color: #1f4fb5;
+    background-color: white;
+    padding: 10px 18px;
+    padding-top: 10px;
+    transform: translateY(26px);
+    
+    font-size: 16px;
+}
+
+.nav-btn:hover {
+    background-color: #1f4fb5;
+    color: white;
+}
+
+
+/* ==========================
+   NOTIFICATION POPUP
+========================== */
+
+.notification-popup {
+    position: fixed;
+
+    bottom: 25px;
+    right: 25px;
+
+    width: 420px;
+
+    background: rgb(231, 220, 220);
+
+    border-radius: 14px;
+
+    padding: 18px 20px;
+
+    display: flex;
+    align-items: center;
+
+    gap: 15px;
+
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.18);
+    z-index: 9999;
+
+    animation: notificationSlide 0.5s ease;
+}
+
+
+/* Bell */
+
+.notification-icon {
+    width: 45px;
+    height: 45px;
+
+    min-width: 45px;
+
+    border-radius: 50%;
+
+    background: #c1cde3;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 22px;
+}
+
+
+/* Message */
+
+.notification-message {
+    flex: 1;
+}
+
+.notification-message strong {
+    display: block;
+
+    color: #163d91;
+
+    font-size: 16px;
+
+    margin-bottom: 4px;
+}
+
+.notification-message p {
+    margin: 0;
+
+    color: #555;
+
+    font-size: 14px;
+
+    line-height: 1.4;
+}
+
+
+/* View button */
+
+.notification-view {
+    border: none;
+
+    background: #1752c7;
+
+    color: white;
+
+    padding: 8px 13px;
+
+    border-radius: 7px;
+
+    cursor: pointer;
+
+    font-weight: 600;
+}
+
+.notification-view:hover {
+    background: #0e3fa5;
+}
+
+
+/* Close X */
+
+.notification-close {
+    position: absolute;
+
+    top: 7px;
+    right: 9px;
+
+    border: none;
+
+    background: transparent;
+
+    color: #777;
+
+    font-size: 22px;
+
+    cursor: pointer;
+
+    line-height: 1;
+}
+
+.notification-close:hover {
+    color: #111;
+}
+
+
+/* Animation */
+
+@keyframes notificationSlide {
+
+    from {
+        opacity: 0;
+        transform: translateX(100px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+}
+
+/* Logo + Hamburger section */
+
+.logo-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+}
+
+
+/* Logo */
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+
+/* Hamburger */
+
+.hamburger {
+    display: block;
+    margin-top: 5px;
+    margin-left: 10px;
+
+    font-size: 28px;
+
+    background: none;
+    border: none;
+
+    cursor: pointer;
+
+    color: #000;
+}
+
+
+/* Hamburger Menu */
+
+.hamburger-menu {
+    display: none;
+
+    position: absolute;
+
+    top: 90px;
+    left: 0;
+
+    width: 300px;
+
+    background: #0d2345;
+
+    z-index: 9999;
+
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+
+/* Open menu */
+
+.hamburger-menu.show {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Menu items */
+
+.hamburger-menu a {
+    color: white;
+    text-decoration: none;
+
+    font-size: 18px;
+
+    padding: 18px 25px;
+
+    border-bottom: 1px solid rgba(255,255,255,0.15);
+}
+
+
+/* Hover */
+
+.hamburger-menu a:hover {
+    background: #16345f;
+} 
+
+/* =========================
+   FAQ PAGE
+   ========================= */
+
+.faq-container {
+    width: 80%;
+    max-width: 900px;
+    margin: 30px auto;
+}
+
+
+/* FAQ Item */
+
+.faq-item {
+    margin-bottom: 15px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+/* Question */
+
+.faq-question {
+    width: 100%;
+    padding: 18px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border: none;
+    cursor: pointer;
+
+    font-size: 17px;
+    font-weight: bold;
+
+    background: #0d2345;
+    color: white;
+}
+
+
+/* Plus */
+
+.faq-question span {
+    font-size: 24px;
+}
+
+
+/* Answer */
+
+.faq-answer {
+    display: none;
+
+    padding: 15px 20px;
+
+    background: white;
+    color: #222;
+}
+
+
+/* Open Answer */
+
+.faq-answer.show {
+    display: block;
+}
+
+/* =========================
+   IMAGE / CONTENT SLIDER
+   ========================= */
+
+.slider {
+    width: 80%;
+    max-width: 800px;
+
+    height: 300px;
+
+    margin: 30px auto;
+
+    position: relative;
+
+    overflow: hidden;
+
+    border-radius: 12px;
+
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+
+    background: white;
+}
+
+
+/* Slides */
+
+.slide {
+    display: none;
+
+    width: 100%;
+    height: 100%;
+
+    text-align: center;
+
+    position: relative;
+}
+
+
+/* Active Slide */
+
+.slide.active {
+    display: block;
+}
+
+
+/* Image */
+
+.slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+/* Previous / Next buttons */
+
+.prev,
+.next {
+    position: absolute;
+
+    top: 50%;
+
+    transform: translateY(-50%);
+
+    border: none;
+
+    background: #1d4fbf;
+
+    color: white;
+
+    font-size: 22px;
+
+    padding: 10px 15px;
+
+    cursor: pointer;
+
+    border-radius: 5px;
+}
+
+
+.prev {
+    left: 10px;
+}
+
+
+.next {
+    right: 10px;
+}
+
+
+.prev:hover,
+.next:hover {
+    background: #143b91;
+}
+
+
+/* Dots */
+
+.dots {
+    position: absolute;
+
+    bottom: 12px;
+
+    width: 100%;
+
+    text-align: center;
+}
+
+
+.dot {
+    display: inline-block;
+
+    width: 10px;
+    height: 10px;
+
+    margin: 5px;
+
+    background: #aaa;
+
+    border-radius: 50%;
+
+    cursor: pointer;
+}
+
+
+.active-dot {
+    background: #1d4fbf;
+}
