@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">  
+
+
+    <head>  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+
+    <link rel="stylesheet" href="style.css">  
+
+   </head>
+
+  <body>   
+   <!-- Header -->
+
+    <header class="header">
+
+        <div class="logo">
+            <img src="aca.png" width="50" height="50" alt="Logo">
+            <h2>STUDENTHUB</h2>
+        </div>
+       <button id="themeToggle">🌙 Dark Mode</button>
+    </header>
+    
+    <!-- Registration Form -->
+       
+     <div class="card-container1">   
+    <br> <main  class="register-main "> 
+
+        <h2 class="register-title"> Registration Form </h2>  <br> 
+
+     <form id="registerForm" novalidate>  
+
+            <label><b>Full Name</b></label>
+
+           <input type="text"
+       id="fullName"
+       placeholder="Enter Full Name"
+       class="register-input"> 
+     <span id="nameError" class="error"></span> 
+
+          <label><b>Email</b></label> 
+
+           <input type="email"
+       id="email"
+       placeholder="Enter Email"
+       class="register-input">
+  <span id="emailError" class="error"></span>
+
+            
+
+            <label><b>Password</b></label>
+
+          <input type="password"
+       id="password"
+       placeholder="Enter Password"
+       class="register-input">
+   <span id="passwordError" class="error"></span>
+            
+
+            <label><b>Confirm Password</b></label>
+<input type="password"
+       id="confirmPassword"
+       placeholder="Confirm Password"
+       class="register-input">
+    <span id="confirmError" class="error"> </span>   
+            
+
+            <input type="submit"
+                   value="Register"
+                   class="register-btn2"> 
+
+        </form> <br>
+
+        <p>
+            Already have an account?
+            <a href="login.html" class="login-link">
+                Login
+            </a>
+        </p>
+
+</main>  
+    
+   </div> 
+    <div class="footer">   
+        <p>© 2026 StudentHub. All Rights Reserved.</p>
+    </div>
+
+  <script src="script.js"> </script>  
+ <script src="registration.js"> </script>  
+ 
+</body>
+
+</html>
