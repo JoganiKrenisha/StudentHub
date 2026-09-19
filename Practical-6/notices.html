@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notices</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body> 
+
+    
+    <header class="header">
+
+        <div class="logo">
+
+            <img src="aca.png"
+            width="50"
+            height="50">
+
+            <h2>STUDENTHUB</h2>
+
+        </div>
+
+
+        <!-- Navigation -->
+
+        <div >
+             <nav class="nav">
+
+            <a href="dashboard.html"
+            class=" active nav-btn">
+
+                Dashboard
+
+            </a>
+
+            <a href="studentstatus.html" class="nav-btn">
+
+                Student Status
+
+            </a>
+
+            <a href="contact.html" class="nav-btn">
+
+                Contact Us
+
+            </a>
+            
+              </nav>
+        </div>
+
+
+        <!-- Logout -->
+
+        <a href="logout.html"
+        class="logout-btn">
+
+            Logout
+
+        </a>
+        <button id="themeToggle">🌙 Dark Mode</button>
+    </header>
+
+
+
+    <main class="notices-container">
+
+        <h2>College Notices</h2>
+
+        <p>
+            Notices are loaded dynamically from an external JSON file
+            using the Fetch API.
+        </p>
+
+
+        <!-- Search -->
+        <div class="notice-controls">
+
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="Search notices..."
+            >
+
+            <!-- Filter -->
+            <select id="categoryFilter">
+                <option value="All">All Categories</option>
+                <option value="Exam">Exam</option>
+                <option value="Assignment">Assignment</option>
+                <option value="Holiday">Holiday</option>
+                <option value="Practical">Practical</option>
+                <option value="Project">Project</option>
+                <option value="General">General</option>
+            </select>
+
+            <!-- Sorting -->
+            <select id="sortSelect">
+                <option value="newest">Newest First</option>
+                <option value="oldest">Oldest First</option>
+                <option value="titleAZ">Title A-Z</option>
+                <option value="titleZA">Title Z-A</option>
+            </select>
+
+        </div>
+
+
+        <!-- Notices will be displayed here -->
+        <div id="noticeContainer"></div>
+
+
+        <!-- Pagination -->
+        <div id="pagination"></div>
+
+    </main>
+
+
+    <script src="notices.js"></script>
+
+</body>
+</html> 

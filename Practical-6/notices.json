@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "title": "Mid Semester Examination",
+    "category": "Exam",
+    "date": "2026-09-20",
+    "description": "Mid semester examination will begin from 20 September 2026."
+  },
+  {
+    "id": 2,
+    "title": "Assignment Submission",
+    "category": "Assignment",
+    "date": "2026-09-22",
+    "description": "Submit your pending assignments before the given deadline."
+  },
+  {
+    "id": 3,
+    "title": "Holiday Notice",
+    "category": "Holiday",
+    "date": "2026-09-25",
+    "description": "The college will remain closed on 25 September 2026."
+  },
+  {
+    "id": 4,
+    "title": "Web Technology Practical",
+    "category": "Practical",
+    "date": "2026-09-27",
+    "description": "Web Technology Practical examination will be conducted in the computer laboratory."
+  },
+  {
+    "id": 5,
+    "title": "Project Submission",
+    "category": "Project",
+    "date": "2026-09-30",
+    "description": "Submit your project files before the final submission date."
+  },
+  {
+    "id": 6,
+    "title": "DSA Assignment",
+    "category": "Assignment",
+    "date": "2026-10-02",
+    "description": "Complete and submit the DSA assignment on time."
+  },
+  {
+    "id": 7,
+    "title": "Java Practical Examination",
+    "category": "Practical",
+    "date": "2026-10-05",
+    "description": "Java practical examination will be conducted according to the practical schedule."
+  },
+  {
+    "id": 8,
+    "title": "Semester Examination Form",
+    "category": "Exam",
+    "date": "2026-10-08",
+    "description": "Students must fill the semester examination form before the last date."
+  },
+  {
+    "id": 9,
+    "title": "Library Notice",
+    "category": "General",
+    "date": "2026-10-10",
+    "description": "Students are requested to return borrowed books before the due date."
+  }
+]  
